@@ -16,7 +16,7 @@ jobs:
       - name: Veracode Upload And Scan
         uses: veracode/veracode-uploadandscan-action@0.2.6
         with:
-          appname: 'Veracode_Java'
+          appname: 'Winnie-ACW/Veracode_Java '
           createprofile: false
           filepath: 'app/target/verademo_java.war'
           vid: '${{ secrets.API_ID }}'
